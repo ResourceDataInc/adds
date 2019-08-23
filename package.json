@@ -75,6 +75,6 @@
   },
   "repository": "fdesjardins/adds",
   "scripts": {
-    "test": "standard *.js && nyc ./node_modules/.bin/mocha test.js"
+    "test": "eslint *.js && nyc mocha test.js"
   }
 }
